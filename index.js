@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
+
 // TODO: Create an array of questions for user input
 const questions = [
     'What is the Title of your README file?',
@@ -15,7 +16,7 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(data) {
   fs.writeFile('README.md', data, (err) =>
       err ? console.log(err) : console.log('Successfully created README.md!')
   );
@@ -69,11 +70,12 @@ function init(questions) {
             type: 'list',
             name: 'license',
             message: questions(8),
-            choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License (GPL)', 'BSD License', 'Creative Commons licenses (for documentation)'],
+            choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License (GPL)', 'BSD License', 'Creative Commons licenses (for documentation)', 'No License'],
           },
         ]);
       };
-      return data = promptUser();
+      data = promptUser();
+      writeToFile('README.md', data);
 }
 
 // Function call to initialize app
