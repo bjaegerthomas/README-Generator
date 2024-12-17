@@ -44,8 +44,8 @@ function renderLicenseSection(license) {
   if (license==='No License') {
     return '';
   }
-  badge = renderLicenseBadge();
-  link = renderLicenseLink();
+  let badge = renderLicenseBadge(license);
+  let link = renderLicenseLink(license);
 
   return `## License
   ${badge}
@@ -59,7 +59,7 @@ function generateMarkdown(data) {
  
   return `# ${data.title}
 
-  #Contents
+  ## Contents
   ---------
   - [Description](#description)
   - [Installation](#installation)
