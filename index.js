@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
+let data = [];
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -29,53 +30,53 @@ function init(questions) {
           {
             type: 'input',
             name: 'title',
-            message: questions(0),
+            message: questions[0],
           },
           {
             type: 'input',
             name: 'description',
-            message: questions(1),
+            message: questions[1],
           },
           {
             type: 'input',
             name: 'installation',
-            message: questions(2),
+            message: questions[2],
           },
           {
             type: 'input',
             name: 'usage',
-            message: questions(3),
+            message: questions[3],
           },
           {
             type: 'input',
             name: 'contribution',
-            message: questions(4),
+            message: questions[4],
           },
           {
             type: 'input',
             name: 'test',
-            message: questions(5),
+            message: questions[5],
           },
           {
             type: 'input',
             name: 'github',
-            message: questions(6),
+            message: questions[6],
           },
           {
             type: 'input',
             name: 'email',
-            message: questions(7),
+            message: questions[7],
           },
           {
             type: 'list',
             name: 'license',
-            message: questions(8),
+            message: questions[8],
             choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License (GPL)', 'BSD License', 'Creative Commons licenses (for documentation)', 'No License'],
           },
         ]);
       };
       data = promptUser();
-      writeToFile('README.md', data);
+      writeToFile(data);
 }
 
 // Function call to initialize app
