@@ -20,8 +20,7 @@
   ## Installation
   Installation is simple as all you will need to do is clone the repository to your own local drive.
 
-  ```bash
-   git clone https://github.com/yourusername/README-Generator.git
+  git clone https://github.com/yourusername/README-Generator.git
 
   There will be a README.md file in the folder directory explaining this project as well as an additional README.md sample file in the dist folder.
   Once you initiate the program and run it, your README.md file will overwrite the sample file in the dist folder.
