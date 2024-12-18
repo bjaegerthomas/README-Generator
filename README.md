@@ -96,6 +96,10 @@
   Above in the Usage area you can see a series of screenshots indicating sample test entries as well as a sample README file which has
   been outputted to the dist folder. All of the questions will accept string value entries except for the last one which asks you to choose a liicense form a series of choices.
 
+  In addition here is a link to a walkthrough video of test submission answers being entered:
+
+  https://drive.google.com/file/d/1EmDSUpRIdPNslOaw-wJHEurzrAhbnS-c/view
+
   ## Questions
   Have any questions about this or other projects?
   Check out my github page through the link below and feel free to reach out via the provided email address.
