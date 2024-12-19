@@ -37,49 +37,49 @@
 
   First you will need to enter the title of your README file:
 
-  [](./assets/title.png)
+  ![Title Screenshot](./assets/title.png)
 
   Next you will need to enter a description of what your project does:
 
-  [](./assets/description.png)
+  ![Description Screenshot](./assets/description.png)
 
   After that you will be asked to enter installation instructions:
 
-  [](./assets/installation.png)
+  ![Installation Screenshot](./assets/installation.png)
 
   Then you will be asked to provide usage information:
 
-  [](./assets/usage.png)
+  ![Usage Screenshot](./assets/usage.png)
 
   Next you will be asked to provide contribution guidelines:
 
-  [](./assets/contribution.png)
+  ![Contribution Screenshot](./assets/contribution.png)
 
   After that you will be asked for test instructions:
 
-  [](./assets/test.png)
+  ![Test Screenshot](./assets/test.png)
 
   Next it will ask for your github username:
 
-  [](./assets/github.png)
+  ![Github Screenshot](./assets/github.png)
 
   It will then ask for your email address:
 
-  [](./assets/email.png)
+  ![Email Screenshot](./assets/email.png)
 
   And finally you will be asked to choose a license for your project.
   Using the arrow keys you can navigate to the choice best suited for
   your project and hit enter to select your choice:
 
-  [](./assets/license.png)
+  ![License Screenshot](./assets/license.png)
 
   You should then see the following message:
 
-  [](./assets/message.png)
+  ![Message Screenshot](./assets/message.png)
 
   As well as a README file in the dist folder with the following template look:
 
-  [](./assets/sample.png)
+  ![Template Screenshot](./assets/sample.png)
 
   Remember this a simple README.md file generator and you can always go back and fine tune it to meet your needs once it is created.
   This program will give you a head start and provide a basic layout to get you started and save some time on your project.
